@@ -1,0 +1,619 @@
+
+
+.Fixed{
+width: 90px;
+height: 100px;
+position: fixed;
+top: 0px;
+left: 0px;
+color: black;
+margin-left: 260px;;
+padding-right: 1px;
+text-indent: 0px;
+text-align: center;
+background-color: chartreuse;
+font-family: 'Pacifico', cursive;
+
+}
+
+/*Index CSS*/
+
+
+.BodyIndex{
+    
+    background-image: linear-gradient( to bottom, aquamarine, white)
+}
+
+
+.LoginIndex{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes aparecer3{
+
+    0% {opacity: 10%;
+    }
+
+    20% {opacity: 20%;
+    }
+
+    40% {opacity: 40%;
+    }
+
+    60% {opacity: 60%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+    }
+}
+
+.TituloIndex{
+    color: blue;
+    text-align: center;
+    text-decoration: bold;
+    animation-name: aparecer3;
+    animation-duration: 5s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+
+.ParrafoIndex{
+    
+    animation-name: aparecer3;
+    animation-duration: 5s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+
+
+.ImagenFondo{
+margin-left: 100px;
+}
+
+.CategoriasIndex{
+    font-size: 30px;
+    color: blueviolet;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.RemomendacionesIndex{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+.ReseñasIndex{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 280px){
+
+    .ImagenFondo{
+        width: 120px;
+        height: 70px;
+        margin-left: auto;
+        
+    }
+
+    .VideoIndex1{
+        width: 120px;
+        height: 70px;
+        margin-left: auto;
+    }
+
+    .VideoIndex2{
+        width: 120px;
+        height: 70px;
+        margin-left: auto;
+    }
+
+    .FooterIndex{
+        font-size: 100px;
+    }
+    
+    .RedesIndex{
+        font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 653px){
+
+    .RecomendacionesBody{
+        display: flex;
+        flex-direction: column;
+    }
+
+.RemomendacionesIndex{
+    font-size: 40px;
+}
+
+    .ImagenFondo{
+        width: 120px;
+        height: 100px;
+        margin-left: auto;
+        
+    }
+    .VideoIndex1{
+        width: 230px;
+        height: 100px;   
+        margin-left: auto;
+    }
+
+    .VideoIndex2{
+        width: 230px;
+        height: 100px;
+   
+    }
+
+    .RedesIndex{
+        display: flex;
+        flex-direction: column;
+        font-size: 100px;
+        margin-top: 50px;
+    }
+
+}
+
+
+/*Recomendaciones CSS*/
+
+.RecomendacionesBody{
+   
+    background-image: linear-gradient( to bottom, blueviolet, white)
+}
+
+@keyframes aparecer5{
+
+    10% {opacity: 10%;
+    }
+
+    20% {opacity: 20%;
+    }
+
+    40% {opacity: 40%;
+    }
+
+    60% {opacity: 60%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+    }
+}
+
+.TituloCines{
+    color: black;
+    animation-name: aparecer5;
+    animation-duration: 8s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+@keyframes colorfondo{
+    0%{
+        background-color: white;
+    }
+    40%{
+    background-color: gray;
+    }
+
+    80%{
+        background-color:lemonchiffon;
+    }
+
+    100%{
+        background-color:lightsalmon;
+    }
+
+}
+
+.SubParrafoCines{
+    font-size: 50px;
+    animation-name: colorfondo;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+.InicioRecomendadas{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.MapaRecomendados{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FotoRecomendado{
+    width: 500px;
+    height: 300px;
+}
+
+.Mapa1{
+        width: 500px;
+        height: 300px;
+        margin-bottom: 100px;
+    }
+
+
+    
+    @media screen and (max-width: 300px){
+
+        .Mapa1{
+            width: 220px;
+            height: 160px;
+            margin-bottom: 50px;
+        }
+
+        .FotoRecomendado{
+            width: 220px;
+            height: 160px;
+            margin-bottom: 50px;
+        }
+
+
+    }
+
+    
+@media screen and (max-width: 546px){
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .Mapa1{
+        width: 350px;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+
+    .TextoCine{
+        font-size: 20px;
+    }
+
+    .FotoRecomendado{
+        width: 350px;
+        height: 200px;
+        margin-bottom: 100px;
+     
+    }
+
+    .InicioRecomendadas{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Descripcion1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .MapaRecomendado{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FormularioRecomendados{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+/*Drama CSS*/
+
+.BodyDrama1{
+    background-image: linear-gradient( to bottom, blueviolet, white)
+}
+
+@keyframes aparecer6{
+
+    10% {opacity: 10%;
+    }
+
+    20% {opacity: 20%;
+    }
+
+    40% {opacity: 40%;
+    }
+
+    60% {opacity: 60%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+    }
+}
+
+.Recomendaciones1{
+    color: black;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: aparecer6;
+    animation-duration: 8s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+
+.TablaDrama1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.TablaDrama2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 590px){
+
+    .FotoDrama1{
+        width: 260px;
+        height: 300px;
+    }
+
+    .TrailerDrama1{
+        width: 360px;
+        height: 200px;
+    }
+
+    .FotoDrama2{
+        width: 260px;
+        height: 300px;
+    }
+
+    .TrailerDrama2{
+        width: 360px;
+        height: 200px;
+    }
+
+    .FooterDrama{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 290px){
+
+
+        .FotoDrama1{
+            width: 260px;
+            height: 300px;
+        }
+    
+        .TrailerDrama1{
+            width: 290px;
+            height: 190px;
+        }
+    
+        .FotoDrama2{
+            width: 260px;
+            height: 300px;
+        }
+    
+        .TrailerDrama2{
+            width: 290px;
+            height: 190px;
+        }
+    
+        .FooterDrama{
+            font-size: 15px;
+        }
+    }
+
+    /*Terror CSS*/
+
+    .Terror{
+        background-image: linear-gradient( to bottom, gray, white)
+    }
+    
+    @keyframes aparecer6{
+    
+        10% {opacity: 10%;
+        }
+    
+        20% {opacity: 20%;
+        }
+    
+        40% {opacity: 40%;
+        }
+    
+        60% {opacity: 60%;
+        }
+    
+    
+        80% {opacity: 80%;
+        }
+    
+        100% {opacity: 100%;
+        }
+    }
+    
+    .RecomendacionTerror1{
+        color: black;
+        text-decoration: underline;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        animation-name: aparecer6;
+        animation-duration: 8s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+    }
+    
+    
+    .TablaTerror{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        
+    }
+    
+
+    
+    @media screen and (max-width: 420px){
+    
+        .FotoTerror1{
+            width: 260px;
+            height: 300px;
+        }
+    
+        .TrailerTerror1{
+            width: 260px;
+            height: 200px;
+        }
+    
+
+    
+        .FooterTerror{
+            font-size: 15px;
+        }
+    
+        .RecomendacionTerror1{
+            width: 30px;
+
+        }
+
+
+        .SinopsisTerror
+    {
+        width: 20px;
+    }
+
+    .FooterTerror{
+        font-size: 20px;
+
+
+
+    }
+
+    .TablaTerror{
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+    }
+    
+    @media screen and (max-width: 303px){
+    
+    
+            .FotoTerror1{
+                width: 200px;
+                height: 150px;
+            }
+        
+            .TrailerTerror1{
+                width: 150px;
+                height: 130px;
+            }
+        
+            .TablaTerror{
+                width: 80px;
+                height: 80px;
+            }
+        
+            .FooterTerror{
+                font-size: 15px;
+            }
+
+        
+.RedesTerror{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+/*Thriller CSS*/
+@keyframes aparecer8{
+
+    10% {opacity: 10%;
+    }
+
+    20% {opacity: 20%;
+    }
+
+    40% {opacity: 40%;
+    }
+
+    60% {opacity: 60%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+    }
+}
+
+.TituloRecomendaciones{
+    margin-bottom: 100px;
+    animation-name: aparecer8;
+    animation-duration: 8s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 60px;
+ text-decoration: underline;
+}
+
+.BodyThriller{
+    background-image: linear-gradient( to bottom, rgb(226, 43, 43), white);
+
+}
+
+@media screen and (max-width: 820px){
+
+.FotoThriller1{
+    width: 260px;
+    height: 400px;
+}
+
+.TrailerThriller{
+    width: 290px;
+    height: 200px; 
+}
+
+}
+
+@media screen and (max-width: 303px){
+
+    .FotoThriller1{
+        width: 260px;
+        height: 300px;
+    }
+    
+    .TrailerThriller{
+        width: 260px;
+        height: 200px; 
+    }
+
+}
